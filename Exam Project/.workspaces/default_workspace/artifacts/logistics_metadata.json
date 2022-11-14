@@ -1,0 +1,197 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "packagemapping",
+				"outputs": [
+					{
+						"name": "isuidgenerated",
+						"type": "bool"
+					},
+					{
+						"name": "itemid",
+						"type": "uint256"
+					},
+					{
+						"name": "itemname",
+						"type": "string"
+					},
+					{
+						"name": "customer",
+						"type": "address"
+					},
+					{
+						"name": "ordertime",
+						"type": "uint256"
+					},
+					{
+						"name": "transitstatus",
+						"type": "string"
+					},
+					{
+						"name": "carrier1",
+						"type": "address"
+					},
+					{
+						"name": "carrier1_time",
+						"type": "uint256"
+					},
+					{
+						"name": "orderstatus",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_uniqueId",
+						"type": "address"
+					}
+				],
+				"name": "CancelOrder",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "carriers",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_uniqueId",
+						"type": "address"
+					},
+					{
+						"name": "_transitStatus",
+						"type": "string"
+					}
+				],
+				"name": "Carrier1Report",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_carrierAddress",
+						"type": "address"
+					}
+				],
+				"name": "ManageCarriers",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_itemid",
+						"type": "uint256"
+					},
+					{
+						"name": "_itemname",
+						"type": "string"
+					}
+				],
+				"name": "OrderItem",
+				"outputs": [
+					{
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Logistics.sol": "logistics"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Logistics.sol": {
+			"keccak256": "0xeaf263967f46db3b01d59b68755fd5f60a22638cb7b81b0f91e0be0fc25a979a",
+			"urls": [
+				"bzzr://1d0151c40ca1567a24732d4d11ea53c786eab25fb6aae986f263b434738c0345"
+			]
+		}
+	},
+	"version": 1
+}
